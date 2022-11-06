@@ -11,4 +11,10 @@
     <div id="string-5">Тырят в вёдра ядра кедров!</div>
     <div id="string-6">Вытру выдрой ядра кедров</div>
   </body>
+  <script>
+    let text = document.getElementsByTagName("div");
+    console.log(
+      `${text[2].innerText}\n${text[4].innerText}\n${text[1].innerText}\n${text[5].innerText}\n${text[3].innerText}\n${text[0].innerText}`
+    );
+  </script>
 </html>

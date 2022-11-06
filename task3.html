@@ -11,8 +11,8 @@
     for (let i = 0; i < 5; i++) {
       container.innerHTML += `<div class='element'>Element ${i + 1}</div>`;
     }
-    let giveColor = document.getElementsByClassName("element");
-    for (let i = 0; i < giveColor.length; i++) {
+    let setColor = document.getElementsByClassName("element");
+    for (let i = 0; i < setColor.length; i++) {
       colors = [
         "#990099",
         "#0033CC",
@@ -22,7 +22,7 @@
         "#FFCC33",
       ];
       for (let i = 0; i < colors.length; i++) {
-        giveColor[i].style.color = colors[i];
+        setColor[i].style.color = colors[i];
       }
     }
   </script>
